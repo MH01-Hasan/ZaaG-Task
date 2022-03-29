@@ -1,10 +1,12 @@
 
-import TaskOne from './component/TaskOne/TaskOne';
+// import TaskOne from './component/TaskOne/TaskOne';
+import TaskTwo from './component/TaskTwo/TaskTwo';
 
 function App() {
   return (
     <div className="App">
-      <TaskOne></TaskOne>
+      {/* <TaskOne></TaskOne> */}
+      <TaskTwo></TaskTwo>
 
     </div>
   );
