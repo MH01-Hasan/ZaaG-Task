@@ -1,0 +1,81 @@
+.model-body{
+    background-image: url(https://cdn.weatherapi.com/weather-widget/img/weatherapi-backgrounds/4_widget3.png);
+    overflow: hidden;
+    background-position: bottom;
+    color: #ffff;
+    height: 327px;
+}
+.main-body{
+    height: 100vh;
+    background-image: url('https://cdn3.vectorstock.com/i/1000x1000/64/02/at-night-city-scenery-for-game-background-vector-14966402.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conutry-input-fild{
+    width: 450px;
+    height: 40px;
+    font-size: 19px;
+    padding-left: 12px;
+    line-height: 40px;
+    
+}
+
+.submit-btn{
+    height: 40px;
+    line-height: 33px;
+    padding: 0px 32px;
+    font-size: 20px;
+    background-color: #c18436;
+    border: none;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.submit-btn:hover{
+    background-color: #c1a836;
+}
+.cart-body{
+    display: flex;
+    width: 760px;
+    background-color: #1f233e;
+    justify-content: space-between;
+    border-radius: 4px;
+    padding: 9px;
+    height: 278px;
+    align-items: center;
+    color: #f0f8ff;
+    margin: auto;
+    box-shadow: -1px 1px 8px 2px white;
+}
+.image{
+    width: 383px;
+    height: 194px;
+    border-radius: 9px;
+}
+.capital{
+    margin-right: 29px;
+    font-size: 22px;
+    font-family: monospace;
+    font-weight: 700;
+}
+.population{
+    font-family: monospace;
+}
+
+.model-btn{
+    background-color: #754fb2;
+    border: none;
+    font-size: 17px;
+    margin-top: 44px;
+}
+
+.Temperature-fild{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+
+}
+.cloud-icon{
+    width: 118px;
+}
